@@ -1,2 +1,6 @@
 class ForumPost():
-    pass
+    def __init__(self, author, text, upvotes):
+        self.author = author 
+        self.text = text
+        self.upvotes = upvotes 
+
