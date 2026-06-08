@@ -1,2 +1,0 @@
-class ForumPost:
-    pass
