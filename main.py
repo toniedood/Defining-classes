@@ -1,15 +1,8 @@
 from forum_post import ForumPost
 
-post1 = ForumPost()
-post1.author = 'Steven'
-post1.text = 'How to find use for every Microsoft product.'
-post1.upvotes = 2
+post1 = ForumPost( "Steven", "How to add text in CLasses", 4)
+post2 = ForumPost( "Anderson", "Have you mannaged?", 3000)
 
-post2 = ForumPost()
-post2.author = 'Gay'
-post2.text = 'Lord of the prayers'
-post2.upvotes = 300
-
-print(f'{post1.text} / {post1.author}, {post1.upvotes} votes')
-print(f'{post2.text} / {post2.author}, {post2.upvotes} votes')
+print(f'{post1.text}, by {post1.author} with {post1.upvotes} votes')
+print(f'{post2.text}, by {post2.author} with {post2.upvotes} votes')
 
