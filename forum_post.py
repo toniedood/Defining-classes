@@ -4,3 +4,6 @@ class ForumPost():
         self.text = text
         self.upvotes = upvotes 
 
+    def view(self):
+        return f'{self.text}, by {self.author} with {self.upvotes} votes'
+
